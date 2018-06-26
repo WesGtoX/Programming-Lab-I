@@ -1,0 +1,13 @@
+algoritmo "Multiplicacao"
+var
+   n1, n2, n3, x, m: Inteiro
+inicio
+      Escreva("Digite 3 numeros: ")
+      Leia(n1, n2, n3)
+      x <- 1
+      Para x de 1 ate 1000 faca
+           m <- n1 * n2 * n3
+           x <- x + 1
+           EscrevaL(m)
+      fimPara
+fimalgoritmo

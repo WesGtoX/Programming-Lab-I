@@ -1,0 +1,12 @@
+Estrutura de repetição do ... while()
+Estrutura de repetição utilizada quando não se sabe com
+antecedência quantas vezes haverá repetições. Contudo,
+primeiro executa as instruções que estão no laço para
+depois testar a condição de parada. dessa forma, as intruções
+serão executadas no mínimo uma vez.
+
+Sintaxe:
+
+do {
+	//instruções
+} while (condição);

@@ -1,0 +1,13 @@
+algoritmo "Tabuada"
+var
+   X, A, R: Inteiro
+inicio
+      A <- 1
+      Escreva("Digite um numero: ")
+      Leia(X)
+      Para A de 1 ate 10 faca
+           R <- A * X
+           EscrevaL(A, " x", X, " = ", R)
+      A <- A + 1
+      FimPara
+fimalgoritmo

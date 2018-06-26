@@ -1,0 +1,17 @@
+algoritmo "Garrafa"
+var
+	Inteiro: garrafa
+	Real: valor
+inicio
+	Escreva("Qual a quantidade de garrafas? ")
+	Leia(garrafa)
+
+	Se garrafa < 12 faca
+		valor <- garrafa * 2.5
+	senao
+		valor <- (garrafa * 2.5) * 0.9
+	fimse
+
+	Escreva("O custo total é R$ ", valor)
+
+fimalgoritmo

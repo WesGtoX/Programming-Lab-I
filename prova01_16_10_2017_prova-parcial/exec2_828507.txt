@@ -1,0 +1,19 @@
+algoritmo "Fazenda"
+var
+	Caractere: mes
+	Real: litros, venda, valor
+inicio
+	Escreva("Qual mes da venda? ")
+	Leia(mes)
+	Escreva("Quantos litros de leite foram produzidos neste mes? ")
+	Leia(litros)
+	Escreva("Quantos litros foram vendidos neste mes? ")
+	Leia(venda)
+	
+	Se litros >= 1000 faca
+		valor <- venda * 2.2
+	senao
+		valor <- venda * 2.5
+	fimse
+	Escreva("O valor total da venda neste mes e de R$ ", valor)
+fimalgoritmo

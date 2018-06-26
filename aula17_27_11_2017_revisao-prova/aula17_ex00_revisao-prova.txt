@@ -1,0 +1,19 @@
+1) O programa pede um nome, e imprime a quantidade de letras que tem esse nome,
+e repete todo o processo 4 vezes.
+
+2) A biblioteca <string.h> contém uma série de funções para manipular strings.
+
+3) A vantagem é que não se precisar criar muitas variáveis.
+Com o vetor se consegue armazenar uma quantidade determinada de valores do mesmo tipo
+
+4) scanf se usa quando precisa ler uma variáveis do tipo bool, int ou float .
+
+gets se usa quando precisa ler uma string que será armazenada na string s. Ela não é uma função segura, 
+simplesmente porque com gets, pode ocorrer um estouro dea quantidade de posições que foi especificado na string.
+
+5) While é usada quando não sabemos quantas vezes um determinado bloco de instruções precisa ser repetido, 
+a execução das instruções vai continuar até que uma condição seja verdadeira.
+
+Do While  tem quase o mesmo funcionamento que o while, a diferença é que com o uso dele teremos os comandos executados ao menos uma única vez.
+
+6) O programa pede uma palavra, e retonra essa palavra de tras para frente.

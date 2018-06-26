@@ -1,0 +1,10 @@
+Estrutura de repetição
+For(inicialização da variável; condição de parada;
+incrementação/decrementação)
+
+Ex:
+for(i=1; i<=10; i++)
+{
+	/*instruções que serão executadas n vezes (parar quado
+	a condição for falsa
+}

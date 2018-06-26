@@ -1,0 +1,16 @@
+algoritmo "Hipotheticus"
+var
+   hora, horaExtra, liquido, bruto: Real
+inicio
+      Escreva("Qual a quantidade de horas trabalhadas? ")
+      Leia(hora)
+      hora <- hora * 10
+      Escreva("Qual a quantidade de horas extras? ")
+      Leia(horaExtra)
+      horaExtra <- horaExtra * 15
+      
+      bruto <- hora + horaExtra
+      liquido <- bruto * 0.9
+      
+      Escreva("O salario liquido e R$ :", liquido, ". O salario bruto e R$ ", bruto)
+fimalgoritmo

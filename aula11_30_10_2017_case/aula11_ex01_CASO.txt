@@ -1,0 +1,35 @@
+﻿algoritmo "CASO"
+var
+	real: v1, v2, resultado, opção;
+inicio
+	Escreva("Calculo de operações matemáticas básicas");
+	Escreva("1 - Para Adição")
+	Escreva("2 - Para Subtração")
+	Escreva("3 - Para Multiplicação");
+	Escreva("4 - Para Divisão");
+	Escreva("Escolha a opção desejada");
+	Leia(opção)
+	Escreva("Informe o primeiro número");
+	Leia(v1);
+	Escreva("informe o segundo número");
+	Leia(v2);
+	
+	ESCOLHA <opção>
+		CASO <1> FAÇA
+		resultado = v1 + v2;
+		Escreva(resultado);
+		CASO <2> FAÇA
+		resultado = v1 - v2;
+		Escreva(resultado)
+		CASO <3> FAÇA
+		resultado = v1 * v2;
+		Escreva(resultado)
+		CASO <4> FAÇA
+		resultado = v1 / v2;
+		Escreva(resultado);
+	FimEscolha
+		
+		
+	
+	
+	"Instruções a serem executadas caso <variável de verificação>

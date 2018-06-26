@@ -1,0 +1,10 @@
+Estrutura condicional switch() ...case
+Sintaxe:
+switch(variável)
+{
+	case valor1 : instruções
+	break;
+	case valor2 : instruções
+	break;
+	default : intruções
+}

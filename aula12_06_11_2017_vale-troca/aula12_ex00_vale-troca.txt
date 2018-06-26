@@ -1,0 +1,47 @@
+VALE TROCA
+===============================================
+1 – O Switch case em C é um comando muito utilizado em estruturas de menu, 
+sua vantagem é a forma de reduzir a complexidade de vários if... else encadeados.
+
+	Sintaxe do comando Switch case em C
+
+	switch (variavel)
+	{
+	   case constante1:
+	     Instruções;
+	   break;
+
+	   case constante2:
+	     Instruções;
+	   break;
+
+	   default
+	     Instruções;
+	}
+==================================================
+2 – /Vale-Troca/aula12_ex02_Switch-case.cpp
+==================================================
+3 – For é uma estrutura de repetição que normalmente é utilizada 
+quando se um número específico de iterações dentro do bloco de código.
+
+While também é uma estrutura de repetição, porém é utilizado quando
+não se sabe a quantidade de iterações o bloco de código terá, podem ser variáveis.
+
+Exemplo For: /Vale-Troca/aula12_ex03_For.cpp
+Exemplo While: /Vale-Troca/aula12_ex03_While.cpp
+==================================================
+4 – getch(): essa função é definida pela biblioteca <conio.h>, 
+ela lê o caractere do teclado e não permite que seja impresso na tela, 
+ela não aceita argumentos e devolve o caractere lido para  a função que a chamou.
+
+getche(): como a getch, essa função também é definida pela biblioteca <conio.h> 
+e lê o caractere do teclado, porém, permite que seja impressoa na tela, 
+e também não aceita argumentos e devolve o caractere lido para  a função que a chamou.
+
+getchar(): essa função é utilizada quando for necessário realizar a entrada  de um único 
+caractere ela lê o caractere e devolve o código ASCII do mesmo. Sendo assim é possível 
+assinalar o valor da função para uma variável do tipo caractere (char)
+==================================================
+5 – sqrt() é uma função que calcula a raiz quadrada de um número ou uma variável.
+Para ser utilizada é necessário definir a biblioteca <math.h>.
+==================================================
